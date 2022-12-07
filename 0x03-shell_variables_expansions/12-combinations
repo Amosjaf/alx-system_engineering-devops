@@ -1,2 +1,2 @@
 #!/bin/bash
-echo {a..z}{a..z} | fmt --width=1
+echo {a..z}{a..z} | fmt --width=1 | grep -v "oo"
