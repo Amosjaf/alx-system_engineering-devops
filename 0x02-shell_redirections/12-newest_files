@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -t | fmt --width=1
+ls -t | fmt --width=1 | head
